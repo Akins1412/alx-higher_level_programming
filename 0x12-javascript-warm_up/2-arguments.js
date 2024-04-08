@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 let argvLen = process.argv.length;
 if (argvLen === 2) {
   console.log("No argument");

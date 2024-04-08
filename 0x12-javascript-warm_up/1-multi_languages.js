@@ -1,5 +1,4 @@
 #!/usr/bin/node
-
 let l1 = "C is fun";
 console.log(l1);
 let l2 = "Python is cool";
