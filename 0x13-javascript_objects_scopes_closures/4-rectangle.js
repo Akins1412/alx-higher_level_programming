@@ -8,9 +8,9 @@ class Rectangle {
   }
 
   print() {
-    for (i = 0; i < this.height; i++) {
+    for (let i = 0; i < this.height; i++) {
       let p = "";
-      for (j = 0; j < this.width; j++) {
+      for (let j = 0; j < this.width; j++) {
         p += "X";
       }
       console.log(p);
@@ -18,9 +18,9 @@ class Rectangle {
   }
 
   rotate() {
-    const aux = this.width;
+    const a = this.width;
     this.width = this.height;
-    this.height = aux;
+    this.height = a;
   }
 
   double() {
