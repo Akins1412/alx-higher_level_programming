@@ -10,3 +10,4 @@ class Square extends Squares {
     }
   }
 }
+module.exports = Square;
