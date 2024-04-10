@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const Square = ('./5-square.js')
-class Square extends Square {
+class square extends Square {
   charPrint(c) {
     if (c === undefined) {
       c = "X";
@@ -10,3 +10,4 @@ class Square extends Square {
     }
   }
 }
+module.exports = square;
