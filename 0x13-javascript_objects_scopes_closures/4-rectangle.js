@@ -8,10 +8,10 @@ class Rectangle {
   }
 
   print() {
-    for (i = 0; i < this.width; i++) {
+    for (i = 0; i < this.height; i++) {
       let p = "";
-      for (j = 0; j < this.height; j++) {
-        p += "X";
+      for (j = 0; j < this.width; j++) {
+        p = "X";
       }
       console.log(p);
     }
