@@ -11,14 +11,16 @@ class Rectangle {
     for (i = 0; i < this.height; i++) {
       let p = "";
       for (j = 0; j < this.width; j++) {
-        p += "X";
+        p = "X";
       }
       console.log(p);
     }
   }
 
   rotate() {
-    [this.width, this.height] = [this.height, this.width];
+    const aux = this.width;
+    this.width = this.height;
+    this.height = aux;
   }
 
   double() {
@@ -28,3 +30,4 @@ class Rectangle {
 }
 
 module.exports = Rectangle;
+
