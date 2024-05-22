@@ -1,7 +1,7 @@
 #!/usr/bin/node
-const request = require('request';
+const res = require('request');
 
-request.get(proces.argv[2], (err, response) => {
+res.get(process.argv[2], (err, response) => {
   if (err) {
     console.error(err);
     return;
